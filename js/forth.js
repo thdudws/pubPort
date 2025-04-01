@@ -1,6 +1,6 @@
 // index.js
 document.addEventListener("DOMContentLoaded", function () {
-    const text = "봐주셔서 감사합니다.\n도전을 통해 성장하는 개발자가 되겠습니다.";
+    const text = "봐주셔서 감사합니다.\n도전을 통해 성장하는 퍼블리셔가 되겠습니다.";
     const element = document.getElementById("typewriter");
     let index = 0; // index 변수 초기화
   
