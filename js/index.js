@@ -51,24 +51,6 @@ $(document).ready(function() {
         });
     }
 
-    // gsap.registerPlugin(ScrollTrigger);
-
-    // gsap.utils.toArray('.flex_container').forEach(section => {
-    //     gsap.set(section, { scale: 1, opacity: 1 });
-    //     gsap.from(section, {
-    //         scrollTrigger: {
-    //             trigger: section,
-    //             start: "top 80%",
-    //             end: "top top",
-    //             scrub: 1
-    //         },
-    //         scale: 0.5,
-    //         opacity: 1,
-    //         duration: 1,
-    //         ease: "power3.out"
-    //     });
-    // });
-
     let index = 0,
         interval = 1000;
 
@@ -100,37 +82,7 @@ $(document).ready(function() {
         }
     });
 
-    // $(document).ready(function() {
-    //     $(".nav__list a").on("click", function(e) {
-    //         e.preventDefault();
-    
-    //         const targetSectionId = $(this).attr("href");
-    
-    //         const targetSection = $(targetSectionId);
-    //         const offsetTop = targetSection.offset().top;
-    
-    //         const offset = $(this).data("offset") || 0;
-    
-    //         const navHeight = $(".nav").outerHeight();
-    
-    //         const scrollTo = offsetTop - navHeight + offset;
-    
-    //         const currentScroll = $(window).scrollTop();
-    //         const direction = currentScroll < scrollTo ? 'down' : 'up';
-    
-    //         if (direction === 'up') {
-    //             $("html, body").animate({
-    //                 scrollTop: scrollTo
-    //             }, 350);
-    //         }
-    //         else if (direction === 'down') {
-    //             $("html, body").animate({
-    //                 scrollTop: scrollTo - 180
-    //             }, 300);
-    //         }
-    //     });
-    // });    
-    
+
 });  
 
 
