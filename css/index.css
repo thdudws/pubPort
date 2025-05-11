@@ -551,11 +551,19 @@ h1.random {
 .loader marquee {
   opacity: 0.2;
   text-transform: uppercase;
+<<<<<<< HEAD
   line-height: 15rem;
   margin: 0;
   padding: 0;
   color: #a79d99;
   font-size: 15rem;
+=======
+  line-height: 14rem;
+  margin: 0;
+  padding: 0;
+  color: #a79d99;
+  font-size: 14rem;
+>>>>>>> 6c1e9cf11374059480ce1f760375e26eef9cd23c
   font-family: "Cinzel";
 }
 
